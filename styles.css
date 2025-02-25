@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo Página */
+body {
+    background-color: #dbf2dc;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #093c2d;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    position: relative;
+    top: -17px;
+    right: 15px;
+    height: 20px;
+    width: 225px;
+    margin: -50px 0 108px;
+    z-index: 0;
+}
+
+/* Navegação */
+.nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav a {
+    color: #dbf2dc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Botão "Reserva" */
+.reserve-btn {
+    background-color: #3b6554;
+    color: #dbf2dc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.reserve-btn:hover {
+    background-color: #274237;
+}
+
+/* Frase abaixo cabeçalho */
+.banner {
+    background-color: #093c2d;
+    position: relative;
+    color: #dbf2dc;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* Fundo Imagem Inicial */
+.containerOne {
+    height: 520px;
+    width: 780px;
+    background-color: #3b6554;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* NÃO SEI PQ MAS NÃO TIRA! */
+img {
+    width: 100%;
+}
+
+/* Efeito atrás da Logo*/
+.circle {
+    background-color: #dbf2dc;
+    border-radius: 50% 50% 50% / 50% 50% 50% 50%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    top: -85px;
+    right: 1005px;
+    z-index: 0;
+}
+
+/* subTítulo */
+.subTitulo {
+    height: 100px;
+    background-color: #093c2d;
+    color: #dbf2dc;
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/* Frase Destaque */
+.fraseDestaque {
+    background-color: #093c2d;
+    position: relative;
+    color: #dbf2dc;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 35px 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* Carrossel */
+.carrossel-inicial {
+    position: relative;
+    height: 568px;
+    width: 750px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-container {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+}
+.carousel-item {
+    height: 500px;
+    border-radius:20px 20px ;
+}
+
+/* Card Chalé */
+.containerChale {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 65px;
+    padding: 0 20px;
+    z-index: 2;
+}
+
+.chale-card {
+    background: #3b6554;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 2;
+}
+
+.chale-card img {
+    width: 100%;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+/*Botaõ Chalé */
+.chale-btn {
+    background-color: #093c2d;
+    color: #dbf2dc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: -10px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.chale-btn:hover {
+    background-color: #05231a;
+}
+
+/* Info Chalé */
+.info hr {
+    border: 3px solid #05231a;
+    width: 90%;
+    margin: 20px auto;
+    z-index: 2;
+}
+
+.info{
+    color: #093c2d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    z-index: 2;
+    display: flex;
+}
+
+.textoInfo1 {
+    position: relative;
+    display: relative;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.textoInfo2 {
+    position: relative;
+    display: relative;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.imgcafe {
+    width: 550px;
+    height: 580px;
+    border-radius: 15px;
+    z-index: 2;
+    margin: 20px;
+    left: 10;
+    padding: 2px;
+}
+.imgPortaria {
+    width: 550px;
+    height: auto;
+    border-radius: 15px;
+    z-index: 2;
+    margin: 20px;
+    left: 10;
+    padding: 2px;
+}
+.containerEsque {
+    background-color: #3b6554;
+    position: relative;
+    display: flex;
+    width: 593px;
+    border-radius: 15px;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #093c2d;
+    color: #dbf2dc;
+    padding: 15px;
+    display: flex;
+    height: 200px;
+}
+
+.footer-logo {
+    position: relative;
+    top: -25px;
+    right: 15px;
+    height: 20px;
+    width: 225px;
+    margin: -50px 0 108px;
+    z-index: 1;
+    padding-bottom: 0%;
+}
+
+.circle2 {
+    background-color: #dbf2dc;
+    border-radius: 50% 50% 50% / 50% 50% 50% 50%;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 2735px;
+    right: 990px;
+    z-index: 0; 
+}
+
+/* Contato */
+.facebook,
+.instagram,
+.whatsapp {
+    text-decoration: none;
+    color: #dbf2dc;
+    display: inline-flex;
+    width: 30px;
+    margin-left: 90px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex;
+    margin-top: -100px;
+}
+
+.footer-social span {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;;
+}
